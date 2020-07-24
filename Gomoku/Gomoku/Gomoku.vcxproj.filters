@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\games">
+      <UniqueIdentifier>{8d5eff08-437e-4e30-b89a-0dea9c59e3e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\enums">
+      <UniqueIdentifier>{d5c4a4bc-4f62-4f56-9e4f-020faee086a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\handlers">
+      <UniqueIdentifier>{a6cd0c9e-9ba4-46b1-98fc-cdcade688d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\games">
+      <UniqueIdentifier>{29af015e-149a-4279-9591-d0f2bb24354d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\handlers">
+      <UniqueIdentifier>{329416ff-f682-4711-93d9-35dc2fd07807}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game.cpp">
+      <Filter>소스 파일\games</Filter>
+    </ClCompile>
+    <ClCompile Include="console_handler.cpp">
+      <Filter>소스 파일\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="turn_info.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gomoku_game.cpp">
+      <Filter>소스 파일\games</Filter>
+    </ClCompile>
+    <ClCompile Include="normal_game.cpp">
+      <Filter>소스 파일\games</Filter>
+    </ClCompile>
+    <ClCompile Include="renju_game.cpp">
+      <Filter>소스 파일\games</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>헤더 파일\games</Filter>
+    </ClInclude>
+    <ClInclude Include="symbols.h">
+      <Filter>헤더 파일\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="game_rule.h">
+      <Filter>헤더 파일\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="gomoku_game.h">
+      <Filter>헤더 파일\games</Filter>
+    </ClInclude>
+    <ClInclude Include="normal_game.h">
+      <Filter>헤더 파일\games</Filter>
+    </ClInclude>
+    <ClInclude Include="renju_game.h">
+      <Filter>헤더 파일\games</Filter>
+    </ClInclude>
+    <ClInclude Include="console_handler.h">
+      <Filter>헤더 파일\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="keys.h">
+      <Filter>헤더 파일\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="turn_info.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
